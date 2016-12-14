@@ -1,8 +1,16 @@
 nav {
   float: right;
   padding-top: 5px;
+  @include media(largeMobile) {
+    float: none;
+    margin: 0 auto;
+  };
 
   ul {
+    @include media(largeMobile) {
+      text-align: center;
+    };
+
     li {
       display: inline-block;
       cursor: pointer;
@@ -10,10 +18,22 @@ nav {
       padding: 15px;
       font-weight: 300;
       letter-spacing: .5px;
+      @include media(largeMobile) {
+        padding: 15px 10px;
+      };
+
+
+      &:last-child {
+        padding-right: 0;
+      }
 
       a {
         text-decoration: none;
         color: #fff;
+
+        &:hover {
+          opacity: .75;
+        }
       }
     }
   }

@@ -6,11 +6,16 @@ section {
 
 #yeti {
   margin-bottom: 30px;
-  
+
   img {
     float: left;
     width: 35%;
     border-radius: 50%;
+    @include media(largeMobile) {
+      float: none;
+      margin: 0 auto;
+      display: block;
+    };
   }
 
   h1 {
@@ -21,5 +26,11 @@ section {
     padding-left: 40px;
     line-height: 45px;
     padding-top: 30px;
+    @include media(largeMobile) {
+      float: none;
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+    };
   }
 }

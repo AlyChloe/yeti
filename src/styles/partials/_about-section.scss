@@ -30,12 +30,9 @@
     .image-container {
       width: 33.3%;
       float: left;
-
-      .shoes {
-        background: #ffedf3;
-        border-radius: 50%;
-        width: 115px;
-      }
+      @include media(largeMobile) {
+        width: 100%;
+      };
 
       img {
         padding: 20px;

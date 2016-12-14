@@ -8,16 +8,28 @@ header {
   background-repeat: repeat,no-repeat;
   background-size: contain,2000px auto;
   padding: 15px 0;
+  @include media(largeMobile) {
+    height: 350px;
+  };
+
 
   .header-container {
     width: 80%;
     margin: 0 auto;
+    @include media(tablet) {
+      width: 97%;
+    };
 
     .logo {
       float: left;
       height: 50px;
       width: 90px;
       margin-top: 5px;
+      @include media(largeMobile) {
+        float: none;
+        margin: 0 auto;
+        display: block;
+      };
     }
 
     .yeti-phrase {
@@ -29,6 +41,11 @@ header {
       margin-right: auto;
       left: 0;
       right: 0;
+      @include media(largeMobile) {
+        width: 100%;
+        padding: 0 55px;
+        top: 41%;
+      };
     }
   }
 
