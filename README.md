@@ -1,3 +1,6 @@
-# Base Project Setup
+# A page dedicated to &yeti
 
-A general project skeleton including Grunt, Sass, Bourbon, Babel, Mocha, Chai, and probably other things, too.
+## Skills Used:
+- HTML
+- Sass
+- Gruntjs
