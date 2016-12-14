@@ -1,0 +1,25 @@
+section {
+  max-width: 550px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#yeti {
+  margin-bottom: 30px;
+  
+  img {
+    float: left;
+    width: 35%;
+    border-radius: 50%;
+  }
+
+  h1 {
+    float: left;
+    font-size: 38px;
+    color: #002531;
+    width: 65%;
+    padding-left: 40px;
+    line-height: 45px;
+    padding-top: 30px;
+  }
+}

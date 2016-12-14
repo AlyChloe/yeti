@@ -1,0 +1,63 @@
+#about {
+  margin-top: 60px;
+  border-top: 1px solid #e6eaed;
+  padding-top: 60px;
+  max-width: 100%;
+
+  h4 {
+    text-align: center;
+    font-weight: 500;
+    color: #002531;
+    font-size: 20px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    letter-spacing: .5px;
+  }
+
+  img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .about-container {
+    border: 1px solid #e6eaed;
+    border-radius: 3px;
+    padding: 30px;
+    margin-bottom: 60px;
+    overflow: hidden;
+
+    .image-container {
+      width: 33.3%;
+      float: left;
+
+      .shoes {
+        background: #ffedf3;
+        border-radius: 50%;
+        width: 115px;
+      }
+
+      img {
+        padding: 20px;
+        width: 150px;
+        margin: 0 auto;
+        display: block;
+      }
+
+      h6 {
+        text-align: center;
+        color: #00b0e9;
+        cursor: pointer;
+        font-size: 18px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px 30px;
+        line-height: 20px;
+      }
+    }
+  }
+}
